@@ -80,3 +80,8 @@ why is your react app fast>
 transistive dependency ->we have our package manager that takes care of transistive dependency  
 
 first we done npm init it give package.json
+
+what is the command used to iniatialize npm ->npm init->package.json->to manage dependency ->dependeny ->devdependeny
+->browerlist ->compatible for older version of browser
+
+a polyfill is a code which is a replacement of newer version of browser
