@@ -62,6 +62,7 @@ what is the most heaviest thing when we load a website?
 media images 
 
 parcel does your image optimization also 
+tree shaking (remove unwanting code )
 it also do caching while development
 compatible with older version of webbrowser
 it add pollyfills 
@@ -85,3 +86,5 @@ what is the command used to iniatialize npm ->npm init->package.json->to manage 
 ->browerlist ->compatible for older version of browser
 
 a polyfill is a code which is a replacement of newer version of browser
+
+babel-plugin-transform-remove-console helps to remove console logs from our files
