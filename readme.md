@@ -76,7 +76,9 @@ consistent hashing algorithm
 
 why is your react app fast>
 * virtual dom
-* react uses parcel,webpack 
+* react uses parcel,webpack
+
+React.createElement=>object=>html(DOM)
 
 transistive dependency ->we have our package manager that takes care of transistive dependency  
 
@@ -88,3 +90,28 @@ what is the command used to iniatialize npm ->npm init->package.json->to manage 
 a polyfill is a code which is a replacement of newer version of browser
 
 babel-plugin-transform-remove-console helps to remove console logs from our files
+
+how do you create multiple tags in jss
+how do you create image tags in jss
+
+
+difference between html and jsx
+
+note=>jsx is not html inside javascript it is not like that
+
+it syntax is similar like javascript
+
+babel is the reader of jsx
+this is like there is a code to read our code to give another code that is accesible by browser
+
+
+jsx uses create React.createElement=>object=>html(dom)  and babel does that
+
+not jsx is not react
+
+* React component
+
+* functional component(new way component)
+* class based component(old way component)
+
+ * in functional component name start with a capital letter (it is not mandatory) but a normal conventio(good pratice)
