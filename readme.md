@@ -94,6 +94,8 @@ babel-plugin-transform-remove-console helps to remove console logs from our file
 how do you create multiple tags in jss
 how do you create image tags in jss
 
+read react reconcillation keys
+
 
 difference between html and jsx
 
@@ -101,11 +103,11 @@ note=>jsx is not html inside javascript it is not like that
 
 it syntax is similar like javascript
 
-babel is the reader of jsx
+* babel is the reader of jsx
 this is like there is a code to read our code to give another code that is accesible by browser
 
 
-jsx uses create React.createElement=>object=>html(dom)  and babel does that
+* jsx uses create React.createElement=>object=>html(dom)  and babel does that
 
 not jsx is not react
 
@@ -115,3 +117,61 @@ not jsx is not react
 * class based component(old way component)
 
  * in functional component name start with a capital letter (it is not mandatory) but a normal conventio(good pratice)
+
+ # any piece of jsx component must have only one parent very important
+
+ * jsx can have only one parent
+ * now suppose if i want to have two parent then 2 options either write another div then it will work
+ * or write react.fragment=> is like a empty tag and also a react component
+ * or note react.fragment make the cod ugly then we can write simpy empty tags 
+
+
+<>
+//this is called a react fragment
+</>
+
+
+config driven ui industry based application uses this concept
+
+
+optional chaning (?.)
+
+The optional chaining (?.) operator accesses an object's property or calls a function. If the object accessed or function called using this operator is undefined or null, the expression short circuits and evaluates to undefined instead of throwing an error.
+
+If the object accessed or function called using this operator is undefined or null, the expression short circuits and evaluates to undefined instead of throwing an error.
+
+
+major difference between parameter and argument
+
+//parameters are accepted by the function 
+
+fn (params1,params2){
+
+}
+
+//argument are passed in a function call
+fn(argument1,argument2);
+
+
+* we can pass multiple props 
+* note we can destrucure the props keyword
+* like props =>({restaurant})  we can 
+
+
+* in the functional loop or industry level code we donot use for loop instead of map
+
+virtual dom is the representation of dom
+
+what is reconcillation in react??
+
+react used diff algorithm for the process of reconcillation in which it will check your virtual dom with the react dom and would rerender only those nodes in which it find the difference and not the whole virtual node and that is one of the reason why react is so fast 
+it find the difference between the two tree and will rerender only the different node 
+
+if the parent has two child with same type(both div) then react will confuse with the order of react
+but if the parent has two child with diff type(div,img) then react knows the order of them
+to counter these problem keys are used which are unique and helps to find the order
+
+
+
+
+
