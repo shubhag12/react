@@ -160,7 +160,7 @@ fn(argument1,argument2);
 
 * in the functional loop or industry level code we donot use for loop instead of map
 
-virtual dom is the representation of dom
+virtual dom is not the actual dom it is only the representation of dom
 
 what is reconcillation in react??
 
@@ -170,6 +170,41 @@ it find the difference between the two tree and will rerender only the different
 if the parent has two child with same type(both div) then react will confuse with the order of react
 but if the parent has two child with diff type(div,img) then react knows the order of them
 to counter these problem keys are used which are unique and helps to find the order
+
+
+export defaut <> will only allow one thing to export  //default import
+default export needs without curly braces import we can also change the name in import file
+
+named export have to be read by curly brace import and here we cannot change the name also 
+
+* named exports  how to import named exports  =>  curly brace import
+* default exports how to import default exports => without curly braces import
+
+
+what is a react variable ?
+what is a state ?
+what is a hook function?
+what is a state varible ?
+what is a new state varible?
+
+hook is nothing but a normal function which will be called when the state is changed it will be called again
+
+
+usestate() returns the array and the first value will be the variable name (helps to create the state varible)
+
+in react ther is one way data binding  and angular there is two way data binding
+
+
+* why do we need state vaiable >
+ let const=10;
+ react would NOT KNOW I HAVE TO UPDATE THE DOM 
+ every time you want to have your variable sync with the ui we use state vaiable.
+
+ these state variable are know as react variable and react will be keeping track of variables and if there is any change it will do rerender the tag in which that variable will be present and this process is know as reconciliation
+ and this process is very fast and diff algorithm is doing the same thing
+
+
+
 
 
 
